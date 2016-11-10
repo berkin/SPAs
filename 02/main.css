@@ -1,0 +1,80 @@
+h1 {
+	margin: 0 0 30px;
+}
+.container {
+	float:  left;
+}
+
+.page-container {
+	border:  1px solid #555;
+
+	position:  relative;
+	width:  200px;	
+	height: 300px;
+	overflow: hidden;
+}
+
+.page-wrapper {
+	border:  1px solid #111;
+
+	overflow: hidden;
+}
+
+.container1 .page-wrapper,
+.container2 .page-wrapper {
+		position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width:  9000px;
+}
+
+.container2 .page-wrapper,
+.container3 .page-wrapper {
+	-webkit-transition: all 1.6s;
+	    -moz-transition: all 1.6s;
+	    -o-transition: all 1.6s;
+	    transition: all 1.6s;
+	}
+
+
+.container3 .page-wrapper {
+	width:  9000px;
+	  transform: translate3d(0,0,0);
+
+	    -webkit-transform: translate3d(0,0,0);
+
+	    -webkit-backface-visibility: hidden;
+	    -webkit-transform-style: preserve-3d;
+}
+
+.page {
+	background:  #f3f3f3;
+	height:  100%;
+	width: 200px;
+
+	float:  left;
+
+}
+
+.container3 .page-container {
+	width:  1000px;
+}
+
+.container3 .page {
+	height: 1000px;
+	width:  1000px;
+}
+
+.page:nth-child(2n) {
+	background: #ddd;
+}
+
+.page:nth-child(2n+1) {
+	background: #ccc;
+}
+
+iframe {
+	height:  100%;
+	width:  100%;
+}
