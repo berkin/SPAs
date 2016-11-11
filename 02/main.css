@@ -31,10 +31,10 @@ h1 {
 
 .container2 .page-wrapper,
 .container3 .page-wrapper {
-	-webkit-transition: all 1.6s;
-	    -moz-transition: all 1.6s;
-	    -o-transition: all 1.6s;
-	    transition: all 1.6s;
+	-webkit-transition: all 3.6s;
+	    -moz-transition: all 3.6s;
+	    -o-transition: all 3.6s;
+	    transition: all 3.6s;
 	}
 
 
